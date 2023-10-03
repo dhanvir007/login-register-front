@@ -12,7 +12,7 @@ const Register = () => {
     }
     const fetchRegister = async () => {
         try {
-            const response = await axios.post("http://localhost:5000/api/users/register", { ...register })
+            const response = await axios.post("https://backenedpageenode.onrender.com/api/users/register", { ...register })
             if (response) {
                 console.log(response.data);
             }
