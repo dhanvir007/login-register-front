@@ -1,0 +1,33 @@
+ .grid{
+   
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width:100vw;
+   margin:auto;
+   height:50%;
+
+ }
+ .register,.login{
+   border:2px solid white;
+   box-shadow: 2px 2px 5px rgb(255, 84, 84);
+   padding:10px;
+   margin:30px;
+   height:100%;
+   width:50%;
+   text-align: center;
+ }
+.register input{
+   margin-top:5px;
+   width:50%;
+   height:20px;
+}
+.login input{
+   margin-top:5px;
+   width:50%;
+   height:20px;
+}
+button{
+   margin:10px;
+   width:50%;
+}
